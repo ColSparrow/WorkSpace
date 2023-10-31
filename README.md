@@ -11,5 +11,5 @@ PaddleDetection-release-2.6\dataset\layout_detection目录下的两个文件夹�
 python tools/train.py -c configs/yolov3/layout_detection.yml --eval -o use_gpu=true
 
 #预测数据
-继续在当前目录下执行，预测图片放在PaddleDetection-release-2.6/test2023/文件夹下
+预测图片放在PaddleDetection-release-2.6/test2023/文件夹下，继续在./PaddleDetection-release-2.6目录下下执行：
 python tools/infer.py -c configs/yolov3/layout_detection.yml -o use_gpu=true --infer_dir=test2023 --save_results=true
